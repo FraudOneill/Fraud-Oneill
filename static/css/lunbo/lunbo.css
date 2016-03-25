@@ -1,0 +1,58 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100%;
+	height: 100%;
+}
+/*清除浮动*/
+.clearfix:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.viewWindow{
+	position: relative;
+	width: 100%;
+	height: 250px;
+	overflow: hidden;
+}
+.train{
+	position: relative;
+	width: 400%;
+	
+}
+.picContainer{
+	float: left;
+	width:25%;
+    text-align: center;
+	height: 250px;
+	margin: 0px;
+}
+.picContainer>img{
+	height: 250px;
+	display: inline-block;
+	
+}
+#p1{
+	
+	background: red;	
+}
+#p2{
+
+	background: yellow;	
+}
+#p3{
+
+	background: blue;
+}
+#p4{
+
+	background: black;
+}
